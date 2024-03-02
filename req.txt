@@ -1,0 +1,10 @@
+clclasgiref
+Django
+django-jalali-date
+django-render-partial
+jdatetime
+Pillow
+pytz
+sorl-thumbnail
+sqlparse
+typing-extensions

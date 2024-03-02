@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>درگاه اینترنتی پرداخت الکترونیک سپهر</title>
+    <link rel="stylesheet" href="/dist/css/main.css?51">
+</head>
+
+<body>
+
+	<header class="w-100 no-overflow">
+
+		<section class="w-100">
+
+			<div class="container d-flex content-between">
+
+				<div class="fit-width d-flex right-side">
+					<div class="shaparak-logo relative">
+						<img src="/assets/images/shaparak-logo.png" alt="شاپرک">
+					</div>
+
+					<div class="header-title-box fit-height relative">
+						<div class="header-title fit-height relative">
+							<span class="fit-width align-self-baseline bottom-radius-16px font-20 font-10-px-sm white-color relative IRANSansBold no-text-wrap">
+								درگاه اینترنتی «پرداخت الکترونیک سپهر»
+							</span>
+						</div>
+					</div>
+
+				</div>
+
+				<div class="w-100 d-flex content-end left-side">
+					<div class="sepehr-logo relative">
+						<img src="/assets/images/sepehr-logo.png" alt="پرداخت الکترونیک سپهر">
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+	</header>
+
+	<content class="w-100 d-block radius-30px mt-2">
+
+
+<script>
+    if (!window.utilities) {
+        window.utilities = {};
+    }
+
+    window.utilities.model = {"Amount":52010,
+        "CallbackURL":"https://next.zarinpal.com/pg/verify/474330315/1",
+        "CellNumber":"09921050745",
+        "InvoiceID":"47433031501",
+        "Payload":"{\"terminalId\":98178982,\"dateTime\":\"2023-11-04 09:48:11\",\"MerNameFz\":\"\\u0633\\u06cc\\u062f\\u0639\\u0644\\u06cc \\u0645\\u06cc\\u0631\\u0644\\u0648\\u062d\\u06cc \\u06cc\\u0632\\u062f\\u0622\\u0628\\u0627\\u062f\\u06cc\",\"WebStFz\":\"http:\\/\\/zarinp.al\\/testtestcom\"}",
+        "PrCode":0,"SettleInfo":null,"TerminalID":98178982,"Ip":null,"SavedCards":null,
+        "Merchant":{"MerchantID":982023032700373,"MerchantLogoURL":"98178982.png","TerminalName":"زرین پال","Cards":{"0":"انتخاب کارت"},"CardList":[],"Website":"http://zarinexpress.com","SendByMer":0},"InfoIrsa":{"Account":null,"Name":null,"LastName":null,"Mobile_number":null,"IBAN":null},"InfoClub":{},"ExceptionMessage":null,"CardNumber":null,"ExMonth":null,"ExYear":null,"Cvv2":null,"Email":null,"IssuerBank":null,"RespCode":null,"RespMsg":null,"DatePaid":null,"BillID":null,"PayID":null,"typeOfBill":null,"PayType":null,"IsMobile":false,"BillLogoURL":null,"MyURL":null,"RespCodeBill":null,"BillList":[],"SettleList":[],"SaveCard":false,"Chargecellnumber":null,"CellOperator":null,"ChargType":null,"RequestType":null,"ChargeLogoURL":null,"NationalCode":"","ClubID":0,"Sequence":null,"Token":null,"SubMerchantLogoURL":"","SubMerchantName":"","SubMerchantUrl":"","GetMethod":"0","CallType":"Post","PayUrl":"/DoMobilePay","ControllerUrl":"/Mobile","TransactionType":0,"TokenId":51188855,"TraceId_LoggerModule":"5bbf840b264549199ad8ced35d39c17c"};
+
+</script>
+
+<div class="container d-flex flex-column pay-plan">
+
+	<div class="w-100 d-flex wrap flex-row-reverse">
+
+		<section class="left-side col-xl-4 pl-sm-2 pr-sm-2 pl-0 pr-0 d-flex mt-3">
+
+			<div class="d-flex flex-column container-42 white-back relative">
+
+				<div class="w-100 d-flex items-center">
+
+					<span class="fit-width d-block side-label IRANSansMedium no-text-wrap font-22 font-13-px-sm">
+						اطلاعات پرداخت
+					</span>
+
+				</div>
+
+				<div class="w-100 flex-column d-flex h-100 items-center content-evenly pt-2">
+
+					<div class="mt-4 merchant-logo d-flex items-center">
+
+					</div>
+
+					<div class="w-100 relative mt-2 amount-logo fit-min-width no-text-wrap">
+						<img src="/Assets/Images/price-tag.png" class="absolute-center w-100 h-100" />
+
+						<div class="w-100 color-topaz d-flex flex-column items-center pt-3 pb-3">
+
+							<div class="w-100 d-flex items-center content-center">
+								<span class="IRANSansBold font-40 font-20-px-sm ml-2">
+									52,010
+								</span>
+								<span class="IRANSansBold font-10-px-sm">
+									ریال
+								</span>
+							</div>
+
+							<span class="w-100 text-center IRANSansMedium font-12-px-sm">
+								مبلغ قابل پرداخت
+							</span>
+						</div>
+
+					</div>
+
+					<ul class="w-100 IRANSansBold font-12 mt-2 mb-0 text-right persian-amount color-dark-slate-blue-55">
+						<li>
+							معادل
+							<span id="persianAmount" class="IRANSansBold"></span>
+							تومان
+						</li>
+					</ul>
+
+					<div class="amount-box w-100 d-flex items-center pt-2 pb-4 mb-3 content-between">
+
+						<div class="w-100 d-flex content-baseline">
+							<span class="fit-width IRANSansMedium color-dark-slate-blue-55 fnont-18 font-12-px-sm mt-2 ml-3 no-text-wrap">
+								مبلغ قابل پرداخت:
+							</span>
+
+							<div class="fit-width d-flex flex-column">
+
+								<div class="fit-width d-flex items-center content-center color-topaz">
+									<span class="IRANSansBold font-26 font-20-px-sm ml-2">
+										52,010
+									</span>
+									<span class="IRANSansBold font-16 font-10-px-sm">
+										ریال
+									</span>
+								</div>
+
+								<div class="fit-width IRANSansBold font-16 font-10-px-sm color-dark-slate-blue-55 mr-1 text-right pl-2">
+									معادل
+									<span id="persianAmountM" class="IRANSansBold"></span>
+									تومان
+								</div>
+							</div>
+
+						</div>
+
+						<button type="button" class="pay-btn show-more-less-btn relative back-iris-6 radius-100 no-border no-box-shadow no-outline" onclick="window.utilities.showMoreLess()">
+							<span class="icon-drop-down d-block"></span>
+						</button>
+
+					</div>
+
+					<div class="w-100 pl-3 pr-3 relative merchant-detail">
+
+						<div class="pt-3 pb-4">
+							<table class="text-right w-100">
+								<tbody>
+
+
+
+
+									<tr>
+										<td>
+
+												<span class="color-dark-slate-blue-55 IRANSansMedium font-18 font-12-px-sm no-text-wrap">
+													نام فروشگاه:
+												</span>
+
+										</td>
+										<td>
+											<span class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+												زرین پال
+											</span>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+												<span class="color-dark-slate-blue-55 IRANSansMedium font-18 font-12-px-sm no-text-wrap">
+													شماره پایانه:
+												</span>
+										</td>
+										<td>
+											<span class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+												98178982
+											</span>
+										</td>
+									</tr>
+
+									<tr>
+										<td>
+												<span class="color-dark-slate-blue-55 IRANSansMedium font-18 font-12-px-sm no-text-wrap">
+													کد پذیرنده:
+												</span>
+										</td>
+										<td>
+
+											<span class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+												982023032700373
+											</span>
+										</td>
+									</tr>
+
+
+									<tr>
+										<td>
+												<span class="color-dark-slate-blue-55 IRANSansMedium font-18 font-12-px-sm no-text-wrap">
+													‌سایت پذیرنده:
+												</span>
+										</td>
+										<td class="text-wrap text-right">
+											<a href="http://zarinexpress.com" class="color-dark-sky-blue IRANSansMedium font-14 font-12-px-sm d-block text-left fit-min-width fit-width">
+												http://zarinexpress.com
+											</a>
+										</td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+
+					</div>
+
+
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="right-side col-xl-8 pl-sm-2 pr-sm-2 pl-0 pr-0 d-flex mt-3">
+
+			<div class="d-flex flex-column container-42 h-100 white-back pb-5">
+
+				<div class="w-100 d-flex items-center ">
+
+					<span class="fit-width d-block side-label IRANSansMedium no-text-wrap font-22 font-13-px-sm">
+						اطلاعات کارت
+					</span>
+
+					<div class="w-100 d-flex items-center content-center color-iris justify-content-sm-center">
+
+						<span class="ml-3 hidden-768">
+							<span class="icon-time"></span>
+						</span>
+
+						<span class="fit-width IRANSansMobileFaNum font-18 ml-3 no-text-wrap d-block font-11-px-sm">
+							مدت زمان باقی‌مانده:
+						</span>
+
+
+							<span id="timer" class="fit-width IRANSansBold font-18 ml-sm-3 left-direction font-11-px-sm">
+								600
+							</span>
+
+
+					</div>
+
+				</div>
+
+				<div class="global-notifi-plan mt-4" style="display: none" data-error="false" data-info="false">
+					<span class="w-100 d-block text-justify global-error text-right font-15 font-11-px-sm IRANSansMedium"></span>
+				</div>
+
+				<form id="payForm" class="w-100 d-flex wrap items-center pt-2">
+
+					<div class="d-flex w-100 align-items-start mt-3 parent-item input-card-plan wrap" data-target="input-card" data-error="false">
+
+						<div class="d-flex flex-column pr-0 h-100 col-md-4 col-12 text-right">
+							<div class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+								شماره کارت:
+							</div>
+							<div class="color-dark-slate-blue-55 IRANSansMobileFaNum font-14 font-10-px-sm hidden-768">
+								شماره‌‌ٔ ۱۶ رقمی درج شده بر روی کارت
+							</div>
+						</div>
+
+						<div class="col-md-8 pl-0 d-flex wrap items-center col-12 mt-2 mt-md-0 pr-0 pr-md-3 parent-input-box">
+
+							<div id="cardNumberDiv" class="w-100 d-flex flex-row-reverse items-center">
+
+								<button type="button" class="pay-btn input-card-btn relative back-iris-6 radius-12px no-border no-box-shadow no-outline dont-show hidden-768">
+									<span class="icon-drop-down d-block"></span>
+								</button>
+
+								<div class="form-group w-100 pl-md-3 mb-0 input-card relative">
+
+									<div class="input-card-inputs w-100 form-control border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 left-direction d-flex content-between align-middle">
+
+										<input type="tel" class="w-20 no-border transparent-back p-0 m-0 IRANSansMedium font-18 font-16-px-sm color-dark-slate-blue no-outline text-center left-direction inputs-card" maxlength="4" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window.utilities.nexFocusWithIndex(event, 1, 4)" autocomplete="off" tabindex="1" onpaste="return window.pay.inputCardPaste(event)" />
+										<b>-</b>
+										<input type="tel" class="w-20 no-border transparent-back p-0 m-0 IRANSansMedium font-18 font-16-px-sm color-dark-slate-blue no-outline text-center left-direction inputs-card" maxlength="4" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window.utilities.nexFocusWithIndex(event, 2, 4)" autocomplete="off" tabindex="2" onpaste="return window.pay.inputCardPaste(event)" />
+										<b>-</b>
+										<input type="tel" class="w-20 no-border transparent-back p-0 m-0 IRANSansMedium font-18 font-16-px-sm color-dark-slate-blue no-outline text-center left-direction inputs-card" maxlength="4" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window.utilities.nexFocusWithIndex(event, 3, 4)" autocomplete="off" tabindex="3" onpaste="return window.pay.inputCardPaste(event)" />
+										<b>-</b>
+										<input type="tel" class="w-20 no-border transparent-back p-0 m-0 IRANSansMedium font-18 font-16-px-sm color-dark-slate-blue no-outline text-center left-direction inputs-card" maxlength="4" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window.utilities.nexFocusWithIndex(event, 4, 4)" autocomplete="off" tabindex="4" onpaste="return window.pay.inputCardPaste(event)" />
+
+										<input type="hidden" id="cardNumber_Em" name="cardNumber" class="input-card" maxlength="16" required autocomplete="off" />
+									</div>
+
+
+									<span class="absolute-y-center right-3 input-card-img bank-img">
+										<img src="/Assets/Images/bank_img/default-card.png" data-default="/Assets/Images/bank_img/default-card.png" />
+									</span>
+
+								</div>
+
+
+							</div>
+
+							<span class="text-error cardNumber-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink"></span>
+
+						</div>
+
+					</div>
+
+					<div class="d-flex w-100 align-items-start mt-3 parent-item wrap input-cvv2" data-error="false" data-target="keypad-cvv2-input">
+						<div class="d-flex flex-column pr-0 h-100 col-md-4 col-12 text-right">
+							<div class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+								شماره شناسائی دوم (CVV2):
+							</div>
+							<div class="color-dark-slate-blue-55 IRANSansMobileFaNum font-14 font-10-px-sm hidden-768">
+								شمارهٔ‌ ۳ یا ۴ رقمی درج شده بر روی کارت
+							</div>
+						</div>
+
+						<div class="col-md-8 pl-0 d-flex wrap items-center col-12 mt-2 mt-md-0 pr-0 pr-md-3">
+
+							<div class="w-100 d-flex items-center">
+
+								<div class="form-group w-100 pl-md-3  mb-0 relative">
+									<input type="tel" name="cvv2" id="cvv2Input" class="keypad-cvv2-input inputs-keypad form-control border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 left-direction font-18 font-16-px-sm color-dark-slate-blue text-security" maxlength="4" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window?.utilities?.nexFocusWithIndex(event, 1, 1)" autocomplete="off" tabindex="5">
+
+									<div id="keypad-cvv2-input" class="keypad-cvv2 pl-md-3 w-100 fit-min-width absolute left-0 z-index-500" data-keypad="false"></div>
+
+								</div>
+
+								<div id="btnKeypadCvv2Input" class="fit-width fit-height hidden-768">
+									<button type="button" class="pay-btn relative back-iris-6 radius-12px no-border no-box-shadow no-outline" onclick="window.keypad.createKeypad('keypad-cvv2-input', event)">
+										<span class="icon-sequrity-keyboard"></span>
+									</button>
+								</div>
+
+							</div>
+
+							<span class="text-error cvv2-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink"></span>
+
+						</div>
+					</div>
+
+					<div class="d-flex w-100 align-items-start mt-3 parent-item wrap" data-target="expire-input" data-error="false">
+
+						<div class="d-flex flex-column pr-0 h-100 col-md-4 col-12 text-right">
+							<div class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+								تاریخ انقضای کارت:
+							</div>
+							<div class="color-dark-slate-blue-55 IRANSansMobileFaNum font-14 font-10-px-sm hidden-768">
+								دو رقم ماه / دو رقم آخر سال را وارد کنید
+							</div>
+						</div>
+
+						<div class="col-md-8 col-12 pl-0 d-flex wrap items-center mt-2 mt-md-0 pr-0 pr-md-3">
+
+							<div class="w-100 d-flex items-center">
+
+								<div id="yearMonthDiv" class="form-group w-100 pl-md-3 mb-0 d-flex items-center expire-input">
+									<div class="d-flex items-center w-50 pl-1 content-between">
+										<input type="tel" name="exMonth" id="monthInput" class="form-control w-40 border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 color-dark-slate-blue left-direction font-18 font-16-px-sm text-center IRANSansMedium" maxlength="2" min="00" max="12" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window?.utilities?.nexFocusWithIndex(event, 1, 2)" tabindex="6">
+
+										<span class="color-dark-slate-blue-18 font-26 text-center w-10">
+											/
+										</span>
+
+										<input type="tel" name="exYear" id="yearInput" class="form-control w-40 border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 color-dark-slate-blue left-direction font-18 font-16-px-sm text-center IRANSansMedium" maxlength="2" min="00" max="12" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window?.utilities?.nexFocusWithIndex(event, 2, 2)" tabindex="7">
+									</div>
+
+									<div class="d-flex items-center w-50 pr-1">
+										<button type="button" class="pay-btn w-100 expire-btn pl-3 pr-3 font-16 font-12-px-sm color-iris IRANSansMedium radius-15px transparent-back border-1-px border-iris-50 input-shadow-iris-11 no-outline relative no-overflow no-text-wrap hidden" onclick="window.pay.enableExpInputs()">
+											اصلاح تاریخ انقضا
+										</button>
+									</div>
+								</div>
+
+							</div>
+
+							<span class="text-error exMonth-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink ml-1"></span>
+							<span class="text-error exYear-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink ml-1"></span>
+
+						</div>
+					</div>
+
+					<div class="d-flex w-100 align-items-start mt-3 parent-item captcha-box wrap" data-error="false" data-target="captchaInput">
+						<div class="d-flex flex-column pr-0 h-100 col-md-4 col-12 text-right">
+							<div class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+								کد امنیتی:
+							</div>
+							<div class="color-dark-slate-blue-55 IRANSansMobileFaNum font-14 font-10-px-sm hidden-768">
+								کد آورده شده در کادر رو‌به‌رو را وارد کنید
+							</div>
+						</div>
+
+						<div class="col-md-8 col-12 pl-0 d-flex wrap items-center mt-2 mt-md-0 pr-0 pr-md-3">
+
+							<div class="w-100 d-flex items-center">
+
+								<div class="form-group w-100 pl-2 pl-sm-3 mb-0 d-flex items-center">
+									<input type="tel" id="captchaInput" name="captchaKey" class="form-control w-50 border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 left-direction ml-1 IRANSansMedium font-18 font-16-px-sm color-dark-slate-blue" maxlength="5" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window?.utilities?.nexFocusWithIndex(event, 1, 1)" autocomplete="off" tabindex="8">
+
+									<div class="w-50 pr-1">
+										<img src="/Shared/GetCaptcha" id="captchaImg" class="w-100" />
+									</div>
+								</div>
+
+								<div class="fit-width fit-height">
+									<button type="button" onclick="window.utilities.reloadCaptcha('captchaImg')" class="pay-btn relative back-iris-6 radius-12px no-border no-box-shadow no-outline">
+										<span class="icon-refresh"></span>
+									</button>
+								</div>
+
+							</div>
+
+							<span class="text-error captchaKey-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink"></span>
+
+						</div>
+					</div>
+
+					<div class="d-flex w-100 align-items-start mt-3 parent-item pin2-box wrap" data-error="false" data-target="keypad-pin2-input">
+						<div class="d-flex flex-column pr-0 h-100 col-md-4 col-12 text-right">
+							<div class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+								رمز دوم (رمز اینترنتی):
+							</div>
+							<div class="color-dark-slate-blue-55 IRANSansMobileFaNum font-14 font-10-px-sm hidden-768">
+								رمز پویا، رمز یک‌بار مصرفی است که به جای رمز دوم استفاده می شود.
+							</div>
+						</div>
+
+						<div class="col-md-8 col-12 pl-0 d-flex wrap items-center mt-2 mt-md-0 pr-0 pr-md-3">
+
+							<div class="w-100 d-flex items-center">
+
+								<div class="form-group w-100 pl-md-3 mb-0 d-flex items-center relative">
+
+									<input type="tel" name="pin2" id="pin2-keypad" class="keypad-pin2-input inputs-keypad form-control w-50 ml-1 font-18 font-16-px-sm border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 left-direction color-dark-slate-blue text-security" maxlength="12" onkeydown="return window.utilities.checkNumber(event,false)" onkeyup="window?.utilities?.nexFocusWithIndex(event, 1, 1)" autocomplete="off" tabindex="9">
+
+									<div id="keypad-pin2-input" class="keypad-pin2 pl-sm-3 w-100 fit-min-width absolute right-0 z-index-500" data-keypad="false"></div>
+
+									<button type="button" id="password-countdown" class="pay-btn w-50 mr-1 font-16 font-12-px-sm color-iris IRANSansMedium radius-15px transparent-back border-1-px border-iris-50 input-shadow-iris-11 no-outline relative no-overflow no-text-wrap" onclick="window.pay.sendOtp('password-countdown-text')">
+										<span class="password-countdown-text d-block left-direction IRANSansMedium">
+											درخواست رمز پویا
+										</span>
+
+										<span class="absolute-y-center send-icon">
+											<span class="icon-send-icon"></span>
+										</span>
+
+										<div class="loader-box">
+											<div class="loader"></div>
+										</div>
+									</button>
+								</div>
+
+								<div class="fit-width fit-height">
+									<button type="button" class="pay-btn relative back-iris-6 radius-12px no-border no-box-shadow no-outline hidden-768" onclick="window.keypad.createKeypad('keypad-pin2-input', event)">
+										<span class="icon-sequrity-keyboard"></span>
+									</button>
+								</div>
+
+							</div>
+
+							<span class="text-error pin2-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink"></span>
+
+						</div>
+					</div>
+
+					<div class="d-flex w-100 align-items-start mt-3 parent-item wrap" data-error="false" data-target="input-email">
+						<div class="d-flex flex-column pr-0 h-100 col-md-4 col-12 text-right">
+							<div class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm">
+								ایمیل (اختیاری):
+							</div>
+							<div class="color-dark-slate-blue-55 IRANSansMobileFaNum font-14 font-10-px-sm hidden-768">
+								رسید پرداخت به این آدرس ایمیل خواهد شد.
+							</div>
+						</div>
+
+						<div class="col-md-8 col-12 pl-0 d-flex wrap items-center mt-2 mt-md-0 pr-0 pr-md-3">
+							<div class="form-group w-100 pl-md-3 mb-0 input-email relative">
+								<input type="email" name="email" class="form-control border-iris-50-focus border-dark-slate-blue-18 outline-iris-50 input-shadow-iris-11 left-direction IRANSansMedium font-18 font-16-px-sm color-dark-slate-blue" maxlength="100" tabindex="10" />
+							</div>
+
+							<span class="text-error email-error mt-2 text-right font-14 font-12-px-sm IRANSansMedium color-barbie-pink"></span>
+
+						</div>
+					</div>
+
+					<div class="d-flex w-100 align-items-start mt-4 parent-item wrap save-card-box hidden" data-error="false" data-target="SaveCard">
+						<div class="d-flex items-center h-100 col-12 text-right pr-0">
+							<label class="switch m-0">
+								<input name="savecard" id="SaveCard" type="checkbox" tabindex="11" checked>
+								<span class="slider round"></span>
+							</label>
+
+							<label class="color-dark-slate-blue IRANSansMedium font-18 font-12-px-sm mr-2 mb-0 pointer" for="SaveCard">
+								ذخیره شماره‌کارت و تاریخ انقضا
+							</label>
+						</div>
+					</div>
+				</form>
+
+				<div class="w-100 mt-4 d-flex btn-box">
+
+					<div class="col-8 pl-1 pr-1 fit-min-width">
+						<button type="button" class="dopay-btn btn w-100 IRANSansBold no-text-wrap font-20 font-13-px-sm no-outline no-border radius-15px back-topaz input-shadow-topaz-11 white-color-imp success-btn relative" onclick="window.pay.submit(event, 'payForm')" tabindex="11">
+							پرداخت
+							<div class="loader-box">
+								<div class="loader"></div>
+							</div>
+						</button>
+					</div>
+
+					<div class="col-4 pl-1 pr-1 fit-min-width">
+						<button type="button" id="" class="btn w-100 IRANSansBold no-text-wrap font-20 font-13-px-sm no-outline no-border radius-15px back-pale-orange input-shadow-pale-orange-11 fit-width white-color-imp warning-btn" onclick="window.pay.canclePay('/ClearSession', window.utilities.model)" tabindex="12">
+							انصراف
+						</button>
+					</div>
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<section class="w-100 mt-5 pl-sm-2 pr-sm-2 pl-0 pr-0">
+
+			<div class="w-100 d-flex flex-column text-right hints-section">
+
+    <div class="w-100 d-flex flex-column mt-sm-5 mt-3">
+
+        <div class="w-100 relative border-bottom-2px border-dashed border-dark-slate-blue-10">
+            <span class="IRANSansMedium font-20 font-11-px-sm fit-width pb-3 d-block hints-title color-barbie-pink relative">
+                راهنمای استفاده از رمز پویا
+            </span>
+        </div>
+
+        <div class="w-100 mt-4 hints-detail">
+
+            <ul class="color-dark-slate-blue font-18 font-11-px-sm pr-sm-4 pr-3 pl-2 pl-sm-0 text-justify">
+                <li>
+                    رمز پویا رمز یکبار مصرفی است که به جای رمز دوم استفاده می‌شود.
+                </li>
+                <li>
+                    <b>مرحله اول -</b> بر اساس دستورالعمل بانک صادرکننده کارت خود نسبت به فعالسازی رمز پویا اقدام نمایید.
+                </li>
+                <li>
+                    <b>مرحله دوم -</b> رمز پویا را بر اساس روش اعلامی از طرف بانک صادر کننده کارت به یکی از روش های زیر دریافت کنید:
+                    <ol>
+                        <li>
+                            دریافت از طریق برنامه کاربردی بانک ، اینترنت بانک و یا موبایل بانک
+                        </li>
+                        <li>
+                            دریافت از طریق کد USSD بانک صادرکننده کارت شما
+                        </li>
+                        <li>
+                            دریافت از طریق زدن دکمه ی "درخواست رمز پویا" در درگاه پرداخت اینترنتی
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <b>مرحله سوم -</b> پس از دریافت رمز به یکی از روشهای فوق ، رمز پویای دریافت شده را در محل تعیین شده برای "رمز دوم" وارد نمایید و سپس مابقی اطلاعات را تکمیل نمایید.
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="w-100 d-flex flex-column mt-sm-5 mt-3">
+
+        <div class="w-100 relative border-bottom-2px border-dashed border-dark-slate-blue-10">
+            <span class="IRANSansMedium font-20 font-11-px-sm fit-width pb-3 d-block hints-title color-barbie-pink relative">
+                راهنمای پرداخت
+            </span>
+        </div>
+
+        <div class="w-100 mt-4 hints-detail">
+
+            <ul class="color-dark-slate-blue font-18 font-11-px-sm pr-sm-4 pr-3 pl-2 pl-sm-0 text-justify">
+                <li>
+                    شماره کارت، عدد ۱۶ رقمی چاپ شده بر روی کارت بانکی شما می باشد.
+                </li>
+                <li>
+                    برای دریافت رمز دوم به یکی از پایانه های خودپرداز بانک صادر کننده کارت خود مراجعه فرمایید.
+                </li>
+                <li>
+                    شماره شناسائی دوم (CVV2) عدد سه یا چهار رقمی چاپ شده پشت یا روی کارت است.
+                </li>
+                <li>
+                    تاریخ انقضای کارت عدد ۴ رقمی به فرمت ماه/سال چاپ شده بر روی کارت بانکی می باشد.
+                </li>
+                <li>
+                    به اطلاع میرساند شرکت مبنا کارت آریا به شرکت پرداخت الکترونیک سپهر تغییر نام داده است.
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="w-100 d-flex flex-column mt-sm-5 mt-3">
+
+        <div class="w-100 relative border-bottom-2px border-dashed border-dark-slate-blue-10">
+            <span class="IRANSansMedium font-20 font-11-px-sm fit-width pb-3 d-block hints-title color-barbie-pink relative">
+                نکات امنیتی
+            </span>
+        </div>
+
+        <div class="w-100 mt-4 hints-detail">
+
+            <ul class="color-dark-slate-blue font-18 font-11-px-sm pr-sm-4 pr-3 pl-2 pl-sm-0 text-justify">
+                <li>
+                    درگاه پرداخت اینترنتی شرکت پرداخت الکترونیک سپهر با استفاده از پروتکل امن SSL به مشتریان خود ارائه خدمت نموده و با آدرس
+                    <a class="color-dark-slate-blue font-18 font-11-px-sm" href="https://sepehr.shaparak.ir">https://sepehr.shaparak.ir</a> و یا <a class="color-dark-slate-blue font-18 font-11-px-sm" href="https://mabna.shaparak.ir">https://mabna.shaparak.ir</a>
+                    شروع می شود.
+                </li>
+                <li>
+                    خواهشمند است به منظور جلوگیری از سوء استفاده های احتمالی پیش از ورود هرگونه اطلاعات، آدرس موجود در بخش مرورگر خود را با آدرس فوق الذکر مقایسه نمایید.
+                </li>
+                <li>
+                    برای کسب اطلاعات بیشتر از آدرس سایت پذیرنده، گزارش فروشگاه های مشکوک و پیگیری مغایرت با شماره تلفن 1686  تماس حاصل فرمایید.
+                </li>
+                <li>
+                    برای جلوگیری از افشای رمز کارت خود، در صورت امکان از صفحه کلید مجازی استفاده فرمایید.
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+		</section>
+
+	</div>
+
+</div>
+
+	</content>
+
+	<footer class="w-100 pb-sm-3 pb-1 relative">
+
+		<section class="footer-content w-100">
+
+			<div class="container d-flex flex-row-reverse justify-content-between">
+
+				<div class="fit-width d-flex items-center left-side IRANSansMedium mt-sm-3 mt-2">
+
+					<span class="icon-tell d-block"></span>
+
+					<span class="IRANSansMobileFaNum font-14 font-9-px-sm ml-3 mr-2">
+						تلفن مرکز پشتیبانی:
+					</span>
+
+					<span class="IRANSansBold font-16 font-11-px-sm">
+						<a href="tel:+982127636000" class="color-white-85">1686</a>
+					</span>
+
+				</div>
+
+				<div class="fit-width d-flex items-center right-side IRANSansMedium mt-sm-3 mt-2">
+
+					<span class="ml-2 all-rights-reserved no-overflow d-flex">
+						<span class="icon-all-rights-reserved-icon"></span>
+					</span>
+
+					<span class="font-14 font-7-px-sm">
+						۱۳۹۶ - کلیه ی حقوق برای شرکت پرداخت الکترونیک سپهر محفوظ است.  |  ۱.۲.۶
+					</span>
+
+				</div>
+
+			</div>
+		</section>
+
+	</footer>
+
+	<script src="/dist/js/main.js?51"></script>
+
+</body>
+
+</html>
