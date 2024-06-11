@@ -1,0 +1,3 @@
+a big online shop that its backend impelmented by django.
+  and frontend by javascript.html,css
+  i using sqlite data base...
